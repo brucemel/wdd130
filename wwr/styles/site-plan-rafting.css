@@ -1,1 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+:root {
+    --primary-color: red;
+    --secundary-color: #800000;
+    --accent1-color: orange;
+    --accent2-color: skyblue;
+
+    --heading-font: 'Times New Roman', serif;
+    --paragraph-font: 'Garamond', serif;
+
+    --nav-background-color: white;
+    --nav-link-color: black;
+    --nav-hover-link-color: brown;
+    --nav-hover-background-color: #003153;
+
+}
