@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
 :root {
-    --primary-color: red;
-    --secundary-color: #800000;
-    --accent1-color: orange;
-    --accent2-color: skyblue;
-
-    --heading-font: 'Times New Roman', serif;
-    --paragraph-font: 'Garamond', serif;
-
-    --nav-background-color: white;
-    --nav-link-color: black;
-    --nav-hover-link-color: brown;
-    --nav-hover-background-color: #003153;
+    --primary-color: #0077cc;           
+    --secondary-color: #4caf50;         
+    --accent1-color: #ff9800;           
+    --accent2-color: #795548;           
+    
+    --heading-font: 'Playfair Display', serif;   
+    --paragraph-font: 'Merriweather', serif; 
+    
+    --nav-background-color: #333333;        
+    --nav-link-color: #ffffff;              
+    --nav-hover-link-color: #ff9800;        
+    --nav-hover-background-color: #333333;
 
 }
+
+
