@@ -67,3 +67,13 @@ aside {
 main img {
   float: right;
 }
+
+aside{
+    position: relative;
+}
+
+aside h2{
+    position: absolute;
+    top: 47;
+    left: 150px;
+}
