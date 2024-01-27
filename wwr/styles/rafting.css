@@ -1,2 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+:root {
+    --primary-color: #0077cc;           
+    --secondary-color: #4caf50;         
+    --accent1-color: #ff9800;           
+    --accent2-color: #795548;           
+    
+    --heading-font: 'Playfair Display', serif;   
+    --paragraph-font: 'Merriweather', serif; 
+    
+    --nav-background-color: #333333;        
+    --nav-link-color: #ffffff;              
+    --nav-hover-link-color: #ff9800;        
+    --nav-hover-background-color: #333333;
+
+}
+
+* {
+    max-width: 800px;
+    margin-right: auto;
+}
+h1 {
+    color: var(--nav-link-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: var(--accent1-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-background-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 1%;
+    left: 20%
+}
+.hero article {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero article {
+    position: absolute;
+    top: 60%;
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.hero article img {
+    height: 110;
+    width: 140px;
+    float: right;
+}
