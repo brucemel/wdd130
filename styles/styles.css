@@ -111,6 +111,11 @@ main h1{
 
 }
 
+main {
+    display: grid;
+    align-items: center;
+}
+
 .grid {
     display: grid;
     align-items: center;
@@ -121,9 +126,9 @@ header, .grid, footer{
     margin: 0 auto;
 }
 
-main {
+main{
+    grid-column: 2/3;
     margin: 1rem;
-    grid-column: 2;
 }
 
 aside{
