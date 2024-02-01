@@ -110,12 +110,6 @@ main h1{
     border-bottom: 1px solid black;
 
 }
-
-main {
-    display: grid;
-    align-items: center;
-}
-
 .grid {
     display: grid;
     align-items: center;
@@ -125,10 +119,14 @@ header, .grid, footer{
     max-width: 840px;
     margin: 0 auto;
 }
+main {
+    display: grid;
+    align-items: center;
 
+}
 main{
-    grid-column: 2/3;
     margin: 1rem;
+    grid-column: 2/3;
 }
 
 aside{
