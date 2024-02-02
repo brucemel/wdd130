@@ -25,7 +25,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -152,3 +152,43 @@ header nav {
     margin-top: 35px;
 }
 
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    background-color: var(--primary-color);
+    color:var(--nav-link-color) ;
+}
+  
+figure img {
+    max-width: 220px;
+    max-height: 150px;
+}
+  
+figure img figcaption {
+    background-color: var(--accent2-color);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.adventure h2{
+    margin-top: -65px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.adventure figure {
+    display: inline-block;
+    max-width: auto;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    color: var(--primary-color)
+}
