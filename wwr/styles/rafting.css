@@ -121,3 +121,34 @@ header nav {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     text-align: center;
 }
+
+.history {
+    display:inline;
+
+}
+
+.history img{
+    max-width: 250px;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-top:-110px;
+}
+
+.paragraph1{
+    height:110px;
+    margin-right: 550px;
+    margin-top: 40px;
+}
+.paragraph2{
+    height:130px;
+    margin-left: 580px;
+    margin-top: -255px;
+    margin-bottom: 200px;
+
+}
+.history h2{
+    display: flex;
+    margin-left:340px;
+    margin-top: 35px;
+}
+
