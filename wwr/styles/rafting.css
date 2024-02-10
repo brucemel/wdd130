@@ -213,3 +213,17 @@ footer {
     display: flex;
     color: var(--primary-color)
 }
+
+.contactgeneral {
+    padding: 10px;
+}
+
+.map{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.employees{
+    margin-bottom: 10px;
+}
+
