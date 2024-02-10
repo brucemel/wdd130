@@ -24,9 +24,22 @@ h1 {
     color: var(--nav-link-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.contacttitulo{
+    color: var(--primary-color);
+    padding: 20px;
+    font-size:80px;
+    text-align: center;
+}
 h2 {
     color: var(--primary-color);
     font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    padding: 10px;
+    margin-left: -130px;
+    color: var(--primary-color);
 }
 
 .sociallinks {
@@ -184,6 +197,15 @@ figure img figcaption {
 
 .adventure figure {
     display: inline-block;
+}
+
+.employees figure {
+    display: inline-block;
+}
+
+.employees figure img {
+    max-width: 220px;
+    max-height: 150px;
 }
 
 footer {
