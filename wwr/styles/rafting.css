@@ -259,6 +259,14 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
+input[type="text"] {
+    width: 400px;
+}
+
+input[type="email"] {
+    width: 400px;
+}
+
 button {
     margin: 1rem;
     background-color: navy;
