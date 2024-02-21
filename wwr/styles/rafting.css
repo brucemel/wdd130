@@ -351,6 +351,7 @@ button:hover {
     width: 100%;
     height: auto;
     margin-top: 20px;
+    aspect-ratio: 3/2;
 }
 
 #tittulo1{
@@ -468,4 +469,18 @@ button:hover {
 
 .bookyour{
     color: var(--primary-color);
+}
+
+.btn{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    padding: 1px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-color: green;
 }
