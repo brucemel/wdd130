@@ -484,3 +484,11 @@ button:hover {
     text-decoration: underline;
     background-color: green;
 }
+
+.finalp{
+    text-align: center;
+    background-color: #0077ccba;
+    border-radius: 0.5rem;
+    color: white;
+    margin: 10px;
+}
