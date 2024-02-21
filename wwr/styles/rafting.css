@@ -373,3 +373,99 @@ button:hover {
 .th2n{
     color: black;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.call-to-action {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.call-to-action h2 {
+    color: var(--primary-color);
+}
+
+.trip-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.trip {
+    width: calc(33.33% - 20px);
+    margin-top: 20px;
+    border-radius: 0.5rem;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.trip h3 {
+    margin-top: 10px;
+}
+
+.trip p {
+    color: #666;
+}
+
+.trip-table {
+    margin-top: 40px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f8f8f8;
+}
+
+.trip {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.trip h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    margin-left: 70px;
+}
+
+.trip h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.trip p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+.bookyour{
+    color: var(--primary-color);
+}
